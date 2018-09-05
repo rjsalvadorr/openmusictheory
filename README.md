@@ -15,3 +15,7 @@ To build the site, go to the project directory and run:
 To host (from project root):  
 `http-server _site`
 
+For development, comment out the following entries in the config file:  
+
+- `url`
+- `baseurl`
