@@ -1,7 +1,5 @@
 // RJ's overrides for printing things
 
-@media print {
-
 .article > .overlay {
   display: none;
 }
@@ -10,21 +8,17 @@
   display: none;
 }
 
-// header.site-header nav ul li a {
-//   color: #000000;
-// }
+header.site-header hgroup a {
+  color: #000000;
+}
 
-header.site-header {
-  display: none;
+header.site-header nav ul li a {
+  color: #000000;
 }
 
 .video-container {
   display: none;
 }
-
-// h1, h2 {
-//   page-break-before: always;
-// }
 
 .post a.share {
   display: none;
@@ -44,4 +38,8 @@ footer small a {
   color: #000000;
 }
 
+@media print {
+  header.site-header {
+    display: none;
+  }
 }
