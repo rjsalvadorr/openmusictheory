@@ -22,4 +22,26 @@ header.site-header {
   display: none;
 }
 
+// h1, h2 {
+//   page-break-before: always;
+// }
+
+.post a.share {
+  display: none;
+}
+
+footer {
+  background: none;
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+footer small {
+  color: #000000;
+}
+
+footer small a {
+  color: #000000;
+}
+
 }
