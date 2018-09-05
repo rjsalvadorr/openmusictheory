@@ -1,0 +1,25 @@
+// RJ's overrides for printing things
+
+@media print {
+
+.article > .overlay {
+  display: none;
+}
+
+.article > .featured-image {
+  display: none;
+}
+
+// header.site-header nav ul li a {
+//   color: #000000;
+// }
+
+header.site-header {
+  display: none;
+}
+
+.video-container {
+  display: none;
+}
+
+}
