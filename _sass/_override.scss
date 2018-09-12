@@ -38,8 +38,52 @@ footer small a {
   color: #000000;
 }
 
+p,
+.post ul li {
+  font-size: 18px;
+}
+
+.post figure figcaption {
+  font-size: 14px;
+}
+
 @media print {
   header.site-header {
     display: none;
+  }
+
+  header.post-header {
+    margin: 15px 0 10px 0;
+  }
+
+  header.post-header hgroup > h1,
+  .post h1 {
+    font-size: 28pt;
+  }
+
+  .post h1 {
+    padding-top: 0;
+  }
+
+  .post h2 {
+    padding-top: 0;
+    font-size: 20pt;
+  }
+
+  .post img {
+    max-width: 90%;
+  }
+
+  p {
+    margin-bottom: 15px;
+  }
+
+  p,
+  .post ul li {
+    font-size: 11pt;
+  }
+
+  .post figure figcaption {
+    font-size: 9pt;
   }
 }
